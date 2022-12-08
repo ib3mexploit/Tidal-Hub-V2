@@ -1,7 +1,7 @@
 local plr = game.Players.LocalPlayer
 local OSTime = os.time()
 local Time = os.date('!*t', OSTime)
-local Key = getgenv().TidalKey or nil
+local Key = getgenv().TidalKey or 'default-build'
 local hwidlist = loadstring(game:HttpGet(('https://raw.githubusercontent.com/eshoradecagar/eshoradecagar/main/access')))()
 local HWID = game:GetService('RbxAnalyticsService'):GetClientId()
 
